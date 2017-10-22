@@ -13,14 +13,23 @@ ul {
    padding: 0;
    margin: 0;
    background: #2e2e2a;
-   line-height: px;
+   line-height: 40px;
+
+   /* le devuelve el contexto de bloque al contenedor ul, ya que con
+   float en li , se pierde */
+
+   overflow: auto;
+
 }
 
 li {
    /*outline:  1px solid  red;*/
    width : 100px;
-   display: inline-block;
+   /*display: inline-block;*/
+
    text-align: center;
+   /*ya no se ve la etiqueta contenedora*/
+   float:left;
 }
 
 a {
