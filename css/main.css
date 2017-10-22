@@ -17,9 +17,7 @@ ul {
 
    /* le devuelve el contexto de bloque al contenedor ul, ya que con
    float en li , se pierde */
-
    overflow: auto;
-
 }
 
 li {
