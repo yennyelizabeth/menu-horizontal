@@ -12,15 +12,15 @@ ul {
    list-style: none;
    padding: 0;
    margin: 0;
-   background: #000;
-   line-height: 30px;
+   background: #2e2e2a;
+   line-height: px;
 }
 
 li {
    /*outline:  1px solid  red;*/
    width : 100px;
    display: inline-block;
-
+   text-align: center;
 }
 
 a {
@@ -28,4 +28,9 @@ a {
   text-decoration: none;
   display: block;
   color: #fff;
+}
+
+a:hover {
+  background: #f9a91a;
+  color: #000;
 }
